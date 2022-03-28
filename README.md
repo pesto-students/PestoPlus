@@ -18,4 +18,4 @@ git checkout -b week1
 - You can create subfolders in main week(week1) folder if required.
 - Add proper readme [(How to Write proper readme](https://meakaakka.medium.com/a-beginners-guide-to-writing-a-kickass-readme-7ac01da88ab3) )in week's folder or subfolder explaining about assignment, how to run assignment and any other instructions. 
 - Raise a PR against master and add your mentor as reviewer
-- Resolve PR comments if any and once your mentor approves your PR, Merge it. 
+- Resolve PR comments if any and once your mentor approves your PR, Merge it.
