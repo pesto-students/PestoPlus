@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+}
+.title {
+    text-align: center;
+    color: cornflowerblue;
+}
+h1 {
+    margin: 0px;
+}
+h2 {
+    margin: 0px;
+}
+p {
+    margin-bottom: 10px;
+}
+img {
+    height: 400px;
+    width: 650px;
+}
+.main-page {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 30px;
+    padding: 30px;
+}
+.right-heading {
+    color: rgb(222, 28, 28);
+}
+@media only screen and (min-width: 768px) and (max-width: 1281px) {   
+    .main-page {
+        display: grid;
+        grid-template-columns: auto;
+        grid-column-gap: 30px;
+        padding: 30px;
+    }
+  }
