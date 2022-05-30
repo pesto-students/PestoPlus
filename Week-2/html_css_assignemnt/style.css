@@ -28,6 +28,57 @@ img {
 .right-heading {
     color: rgb(222, 28, 28);
 }
+.form-ctn {
+    display: none;
+}
+.btn-ctn {
+    text-align: center;
+}
+button {
+    padding: 15px;
+    background-color: rgba(62, 117, 255, 0.466);
+    border-color: cadetblue;
+    cursor: pointer;
+}
+form{
+    padding: 50px 30px 20px;
+    text-align: center;
+}
+.input-group{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    position: relative;
+}
+.input-group label{
+    flex-basis: 28%;
+}
+.input-group input, .input-group textarea{
+    flex-basis: 68%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid #999;
+    color: #333;
+    font-size: 16px;
+}
+::placeholder{
+    font-size: 14px;
+}
+
+form button{
+    background: #141a34;
+    color: #fff;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 10px 40px;
+    outline: 0;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto 10px;
+}
 @media only screen and (min-width: 768px) and (max-width: 1281px) {   
     .main-page {
         display: grid;
